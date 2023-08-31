@@ -160,6 +160,7 @@ nav a .btn-2:hover{
     line-height: 32px;
     border-radius: 9px;
     border: 1px solid #159DFF;
+    transition: 0.5s all ease-in-out;
 }
 .banner-content button:hover{
     background-color: transparent;
@@ -282,8 +283,14 @@ nav a .btn-2:hover{
     justify-content: center;
     align-items: center; 
     margin:20px 15px;
+    position: relative;
 
 }
+.course-category-content:hover{
+    background-color: #00406E;
+    transition: 0.7s all ease-in-out;
+}
+
 .course-category-content img{
     width: 85px;
     height: 85px;
@@ -304,6 +311,24 @@ nav a .btn-2:hover{
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
+}
+.course-category-content:hover h3{
+    color: white;
+    transition: 0.7s all ease-in-out;
+}
+.course-category-content:hover h3 span{
+    color: white;
+    transition: 0.7s all ease-in-out;
+}
+.overlay-image{
+    position: absolute;
+    right: 0%;
+    top: 68%;
+    opacity: 0;
+}
+.course-category-content:hover .overlay-image{
+    opacity: 1;
+    transition: 0.7s all ease-in-out;
 }
 
 /* ////////////////////////////////////////////////////////////course category end//////////////////////////////// */
@@ -370,9 +395,67 @@ nav a .btn-2:hover{
     line-height: 32px;
     border-radius: 9px;
     border: 1px solid #159DFF;
+    transition: 0.5s all ease-in-out;
 }
 .join-community-content button:hover{
     background-color: transparent;
     color: #159DFF;
 }
 /* /////////////////////////////////////////////////////////////join our community end///////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////others benifit start////////////////////////////// */
+.other-benifit-headline{
+    
+}
+.other-benifit-headline h2{
+    color: #2D3134;
+    font-family: Baloo Da 2;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.5px;
+    text-transform: uppercase;
+}
+.other-benifit-headline h2 span{
+
+    color: #00A3FF;
+    text-align: center;
+    font-family: Baloo Da 2;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55.5px; /* 138.75% */
+    text-transform: uppercase;
+}
+.benifit-content{
+    margin-top: 89px;
+    margin-bottom: 208px;
+}
+.round-shape-for-other-benifit{
+    background-color: #035685;
+    width: 118.267px;
+    height: 118.267px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.round-shape-for-other-benifit img{
+    width: 47.307px;
+    height: 50.437px;
+}
+.benifit-heading{
+    color: #161616;
+    text-align: center;
+    font-family: Baloo Da 2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.5px;
+    text-transform: uppercase;
+}
+
+
+/* /////////////////////////////////////////////////////////////others benifit end////////////////////////////// */
