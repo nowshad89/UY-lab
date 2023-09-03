@@ -10,12 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!------------------------------------Bootstrap-------------------------- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <!-- owl carousel css -->
+    <link href=".//css/owl.carousel.css" rel="stylesheet">
+    <link href="./css/owl.theme.css" rel="stylesheet">
 
     <!-- ---------------------------------custom css======================== -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
@@ -323,23 +324,58 @@
                         <h2 class="trining-partner-bottom"><span>ট্রেনিং </span>পার্টনার</h2>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" id="demo">
                     <div class="col-11">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
-                              <div class="swiper-slide"><img src="./fonts/uy systems-logo.svg" alt=""></div>
+                        <div>
+                            <div class="container positioning-nev">
+                                <div class="row">
+                                    <div class="span12">
+                                        <div class="customNavigation">
+                                            <a class="btn prev"><</a>
+                                            <a class="btn next">></a>
+                                        </div>
+                                        <div id="owl-demo" class="owl-carousel ">  
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                            <div class="item bg-white" style="border-radius: 19px;
+                                            border: 1px solid rgba(0, 163, 255, 0.48);
+                                            background: #FFF;"><img src="./fonts/uy systems-logo.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -374,8 +410,20 @@
         <!----------------------------------------- subscribe form section end ------------------------->
 
 
-
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="course-bundle">
+                        <img src="./images/card image.png" alt="">
+                        <h4>গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল কোর্স</h4>
+                        <ul>
+                            <li><img src="./fonts/star rating.svg" alt=""><span> (0)</span></li>
+                            <li>3000 টাকা</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       </div> 
 
 
 
@@ -400,34 +448,40 @@
       <!----------------------------------------------Bootstrap js-------------------------------  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
     
-    <!-- ----------------------------------------------Swiper JS----------------------------- -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- --------------------------------------------owl carousel js------------------ -->
+    <script src="./js/jquery-1.9.1.min.js"></script> 
+    <script src="./js/owl.carousel.js"></script>
 
-    <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            640: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-            },
-            768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            },
-            1024: {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            },
-        },
+        $(document).ready(function() {
+    
+          var owl = $("#owl-demo");
+    
+          owl.owlCarousel({
+            items : 4, //10 items above 1000px browser width
+            itemsDesktop : [1000,3], //5 items between 1000px and 901px
+            itemsDesktopSmall : [900,2], // betweem 900px and 601px
+            itemsTablet: [600,1], //2 items between 600 and 0;
+            itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
         });
-    </script>
+    
+          // Custom Navigation Events
+          $(".next").click(function(){
+            owl.trigger('owl.next');
+          })
+          $(".prev").click(function(){
+            owl.trigger('owl.prev');
+          })
+          $(".play").click(function(){
+            owl.trigger('owl.play',1000);
+          })
+          $(".stop").click(function(){
+            owl.trigger('owl.stop');
+          })
+    
+    
+        });
+        </script>
 
 </body>
 </html>

@@ -470,6 +470,49 @@ nav a .btn-2:hover{
 .trining-partner-bottom{
     margin-bottom: 90px;
 }
+.swiper {
+    width:80%;
+    height: 100%;
+    position: relative;
+  }
+  .swiper-button-next{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    z-index: 11;
+  }
+
+  .swiper-slide {
+    width: 298px;
+    height: 155px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    border: 1px solid rgba(0, 163, 255, 0.48);
+    background: #FFF;
+
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 133.941px;
+    height: 69px;
+    object-fit: cover;
+  }
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #00A3FF;
+    padding: 8px 16px;
+    border-radius: 50%;
+}
+
 /* /////////////////////////////////////////////////////////////training partner section end////////////////////////////// */
 
 
@@ -544,9 +587,24 @@ nav a .btn-2:hover{
 }
 /* /////////////////////////////////////////////////////////////subscribe section end////////////////////////////// */
 
-.course_bundle{
-    background: red;
-    height: 300px;
+#owl-demo .item{
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
 }
-
-
+.customNavigation{
+  text-align: center;
+}
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
